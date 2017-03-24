@@ -1,0 +1,265 @@
+/* Base Styles -------------------- */
+
+/** {
+margin:10px;	
+padding:10px;
+}*/
+* {
+box-sizing: border-box;
+
+}
+html{
+	/*font-size:1rem;*/
+
+}
+
+header{
+	text-align: center;
+	background-color: none;
+	font-size:2rem;
+	line-height:2;
+	/*display:block;
+	margin:left 500px;*/
+}
+
+span {
+	background-color: coral;
+	text-align:center;
+	font-size: 1.3rem;
+	padding: 10px 20px;
+	/*padding-right:10px;
+	padding-top:20px;
+	padding-bottom:20px;*/
+}
+
+h1  {
+	background-color: none;
+	text-align:center;
+	font-size:1.5rem;
+	font-weight:normal;
+	letter-spacing: 0.15em;
+	border:5px dashed red;
+	padding:20px;
+	margin:5% 0%;
+}
+body{
+	/*background-color:#ffa949;*/
+	background-color:none;
+	width:100%;
+	margin:auto;
+	background-image: url('../img/volleyball1.jpg');
+	background:linear-gradient (#ffa949, transparent 50%);
+	background-size: 60%;
+	background-repeat:no-repeat;
+	/*font-size: 2em;*/
+
+	}
+
+nav {
+	
+	/*background-color:gray;*/
+	background-color:none;
+	text-align: center;
+	/*border: bottom 50px;*/
+	border:5px dashed red;
+	display:block;
+	/*padding: 18% 24%;*/
+		/*margin-right:20%;*/
+}
+
+li {
+/*font-size:10%;*/
+font-weight:bold;
+/*background-color: gold;*/
+background-color: none;
+/*display:inline-block;*/
+}
+
+nav a {
+display:inline-block;
+background-color:none;
+font-size:1.5rem;	
+/*margin-top:30px;*/
+margin:2% 2% 2% 2%;
+padding:2% 2% 2% 2%;
+/*border: bottom 50px;*/
+border:5px dashed blue;
+line-height:5;
+}
+
+ol {
+	list-style-type: square;
+
+}
+
+/*img {
+	border-radius: 10px;*/
+}
+
+#buddy1{
+	text-align: center;
+	color:orange;
+	background-color: none;
+	margin:auto;
+	border:5px dashed red;
+	display: block;
+	margin-top:80px;
+	line-height:3;
+	/* width:600px;
+	box-sizing:border-box;
+	padding-left:200px;
+	 /*border-left:100px;*/
+
+	 /*border-top: 30px dashed orange;
+	 /*padding:5% ;*/
+}
+#rules {
+	text-align:center;
+}
+
+#rules a{
+display:inline-block;
+box-sizing:border-box;
+background-color:tomato;
+text-align:center;
+/*color:white;
+/*background-color:lightblue;*/
+text-decoration:underline;
+padding:10px 15px;
+border:5px dashed red;
+/*border:100px lightcoral;*/
+margin:auto;}
+
+#top {
+color:black;
+text-decoration: none;
+border:5px dashed red;
+
+}
+
+.main-header, .primary-content, .secondary-content,.main-footer {
+	border:5px dashed red;
+	/*border: 20px solid lightgrey;*/
+	width:100%;
+}
+.primary-content a{
+	text-decoration: none;
+	display:block;
+	text-align:center;
+	color:white;
+	background-color:none;
+	/*background-color:#434a52;*/
+	font-size: 1.5rem;
+	border:5px dashed red;
+	/*border: 50px solid orange;
+	width:800px;
+	 /*padding:5% ;
+	 margin:20px;*/
+
+}
+
+.secondary-content a{
+	font-size:1.3rem;
+	background-color: none;
+	color:red;
+	text-align:center;
+	text-decoration: none;
+	border:5px dashed red;
+	/*display:inline-block;*/
+	box-sizing:border-box;
+
+
+}
+
+.secondary-content p{
+	text-align: center;
+	border:5px dashed red;
+	line-height:3;
+	margin-top:5%;
+}
+/*8float clearfix*/
+
+.group:after {
+	content:""; 
+	display:table;
+	clear:both;
+
+	}
+
+/*.group li{
+	border-radius: 10px;*/
+}
+
+.action2 {
+	width:46.5%;
+	float:left;
+	list-style-type: square;
+}
+
+.action2 {
+	width:46.5%;
+	float:left;
+	list-style-type: circle;
+}
+
+.action3 {
+	width:46.5%;
+	float:right;
+	list-style-type: circle;
+}
+
+li{
+	border:3px dashed purple;
+	list-style-position: inside;
+}
+.main-footer {
+	/*padding-top:60px;
+	padding-bottom:60px;*/
+	border:5px dashed red;
+	/*border-bottom:solid 10px black;*/
+	background-color: none;
+	/*background-color:lightblue;*/
+	text-align:center;
+	/*display:inline-block;*/
+	margin:auto;
+	line-height:1;
+	width:100%;
+	color:green;
+	text-decoration: none;}
+	/*font-size:2rem;*/
+
+	.main-footer a{
+
+		text-decoration: none;
+		color:white;
+		/*background-color:#435678;*/
+	}
+.main-footer p{
+
+}
+
+/* pseudo classes*/
+
+a: link{
+	color:orange;
+	text-decoration: none;
+}
+
+a: visited{
+	color:forestgreen;
+}
+p hover{
+	color:lightblue;
+}
+a:active{
+	color:magenta;}
+
+:focus{
+	color:white;
+	background-color:green;
+	};
+}
+
+div:link{
+	background-color:orange;	
+}
